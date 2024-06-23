@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 
 add_subdirectory(string)
+add_subdirectory(stl)
 
 add_executable(demo_c_plus_plus main.cpp)
 add_executable(thread_with_param pthread_with_param.cpp)
